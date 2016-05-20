@@ -1,0 +1,19 @@
+{
+  "name": "gulp-less-importany",
+  "version": "1.0.0",
+  "description": "import less file or var to specified files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diablojj/gulp-less-importany.git"
+  },
+  "author": "diablojj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diablojj/gulp-less-importany/issues"
+  },
+  "homepage": "https://github.com/diablojj/gulp-less-importany#readme"
+}
