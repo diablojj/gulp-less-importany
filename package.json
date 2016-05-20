@@ -1,6 +1,6 @@
 {
   "name": "gulp-less-importany",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "import less file or var to specified files",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/diablojj/gulp-less-importany/issues"
   },
-  "homepage": "https://github.com/diablojj/gulp-less-importany#readme"
+  "homepage": "https://github.com/diablojj/gulp-less-importany#readme",
+  "dependencies": {
+    "gutil": "^1.6.4",
+    "through2": "^2.0.1"
+  }
 }
