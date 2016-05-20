@@ -15,7 +15,10 @@ npm install gulp-less-importany
 ## Basic Usage
 
 ```js
-
+gulp.src(['src/themes/css/index.less', 'src/themes/css/form.less'])
+        .pipe(lessimportany('src/themes/css/custom/common.less'))
+        .pipe(less())
+        .pipe(gulp.dest('dist/themes/css'));
 ```
 
 ## Options
